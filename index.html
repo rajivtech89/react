@@ -1,0 +1,33 @@
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="./index.css"/>
+  </head>
+  <body>
+    <div id="root">
+        <h1>Hello world!</h1>
+    </div>
+    <div id="JavascriptRoot">
+
+    </div>
+    <div id="reactRoot">
+
+    </div>
+    <div id="reactParagRoot">
+
+    </div>
+    <script>
+      const heading= document.createElement("h1");
+      heading.innerHTML="Hello world from Javascript";
+      const root= document.getElementById("JavascriptRoot");
+
+      root.appendChild(heading); 
+    </script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="./App.js">
+      
+    </script>
+  </body>
+
+</html>
